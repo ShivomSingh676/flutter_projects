@@ -25,7 +25,10 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        return macos;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for macos - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -44,38 +47,30 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDHd2JjCPl1nDIN0JOMwlmffHwfKEBavkE',
-    appId: '1:349424621203:web:1b3220271704b1b89d1f66',
-    messagingSenderId: '349424621203',
-    projectId: 'flutterfcm676',
-    authDomain: 'flutterfcm676.firebaseapp.com',
-    storageBucket: 'flutterfcm676.appspot.com',
-    measurementId: 'G-RP3N1Q1VPR',
+    apiKey: 'AIzaSyAXpWwIbthPEEXDUKYKtX_qVeZ3RGlAGO0',
+    appId: '1:129204740589:web:44fcbf607086274fa9c7e4',
+    messagingSenderId: '129204740589',
+    projectId: 'takecare-164c6',
+    authDomain: 'takecare-164c6.firebaseapp.com',
+    storageBucket: 'takecare-164c6.appspot.com',
+    measurementId: 'G-DFD3GMYJWT',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCCK6hjS7rmk7HGLOUe3IxQxzdYyMzI2z0',
-    appId: '1:349424621203:android:b8d7bfefd12da8459d1f66',
-    messagingSenderId: '349424621203',
-    projectId: 'flutterfcm676',
-    storageBucket: 'flutterfcm676.appspot.com',
+    apiKey: 'AIzaSyDcLSGEZhlXAbiy8XEvsj7jpt-jh8vfllQ',
+    appId: '1:129204740589:android:e1002771f467ab57a9c7e4',
+    messagingSenderId: '129204740589',
+    projectId: 'takecare-164c6',
+    storageBucket: 'takecare-164c6.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCj9Z668dBFYSbXSbQbd7Xc4wBLp6QU55g',
-    appId: '1:349424621203:ios:a7ff39766f901c4d9d1f66',
-    messagingSenderId: '349424621203',
-    projectId: 'flutterfcm676',
-    storageBucket: 'flutterfcm676.appspot.com',
-    iosBundleId: 'com.example.flutterFcm1',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCj9Z668dBFYSbXSbQbd7Xc4wBLp6QU55g',
-    appId: '1:349424621203:ios:8269beb36d66b7789d1f66',
-    messagingSenderId: '349424621203',
-    projectId: 'flutterfcm676',
-    storageBucket: 'flutterfcm676.appspot.com',
-    iosBundleId: 'com.example.flutterFcm1.RunnerTests',
+    apiKey: 'AIzaSyD-9n9S-YjLkWI5lFoWGQx4bXU4nGLoehU',
+    appId: '1:129204740589:ios:75ec7b79d6f0bceca9c7e4',
+    messagingSenderId: '129204740589',
+    projectId: 'takecare-164c6',
+    storageBucket: 'takecare-164c6.appspot.com',
+    iosClientId: '129204740589-fck2eluchm3o91nl2bgh7uoimojrb2r8.apps.googleusercontent.com',
+    iosBundleId: 'com.example.takecare',
   );
 }

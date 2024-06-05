@@ -1,26 +1,43 @@
 {
   "project_info": {
-    "project_number": "349424621203",
-    "project_id": "flutterfcm676",
-    "storage_bucket": "flutterfcm676.appspot.com"
+    "project_number": "129204740589",
+    "project_id": "takecare-164c6",
+    "storage_bucket": "takecare-164c6.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:349424621203:android:b8d7bfefd12da8459d1f66",
+        "mobilesdk_app_id": "1:129204740589:android:e1002771f467ab57a9c7e4",
         "android_client_info": {
-          "package_name": "com.example.flutter_fcm1"
+          "package_name": "com.example.takecare"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "129204740589-29hn21b80jg9npddivqgtm9iijau8ql0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyCCK6hjS7rmk7HGLOUe3IxQxzdYyMzI2z0"
+          "current_key": "AIzaSyDcLSGEZhlXAbiy8XEvsj7jpt-jh8vfllQ"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129204740589-29hn21b80jg9npddivqgtm9iijau8ql0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "129204740589-fck2eluchm3o91nl2bgh7uoimojrb2r8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.takecare"
+              }
+            }
+          ]
         }
       }
     }
